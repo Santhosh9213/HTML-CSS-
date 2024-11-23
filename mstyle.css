@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.landing{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:whitesmoke;
+    }
+    header a{
+    
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    header{
+        display: flex;   
+        padding: 1rem;
+    
+    }
+    #logo{
+        flex: 2;
+        color: rgb(247, 135, 31);
+        font-size: 1.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .nav{
+        flex: 3;
+        display: flex;
+    }
+    .nav a{
+        flex:3;
+        padding-left:1em;
+        color: #c0b6b6;
+        font-weight: 300px;
+    }
+    .nav a:hover{
+        color:rgb(10, 6, 255);
+        }
+    .menuhead{
+    
+    
+        color: rgb(92, 88, 88);
+        display: flex;
+        justify-content:center;
+        background: linear-gradient(to right,rgb(0, 0, 0),rgb(53,52,52));
+
+    }
+    .menu{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+            background: linear-gradient(to right,rgb(64, 202, 179),rgb(53,52,52));
+            color: rgb(3, 3, 3);
+            justify-content: center;
+            padding: 80px;
+            overflow:auto;
+        }
+        .starters{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .rice{
+            padding: 10px;
+        }
+        .vegcurries{
+        padding: 10px;
+        }
+        .chickenstarters{
+            padding: 10px;
+        }
+        .chickencurries{
+            padding: 10px;
+        }
+          
+    
+    .last{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:1em;
+        text-align: center;
+        background: linear-gradient(to right,rgb(0, 0, 0),rgb(53,52,52));
+    }
+    .thank{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:1em;
+        border:solid black;
+        text-align: center;
+        background-color:rgb(238, 127, 23);
+    }

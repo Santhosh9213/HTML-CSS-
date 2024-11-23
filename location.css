@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    
+}
+
+body{
+    background-image:url(img1.jpg);
+    background-position:center;
+    background-size: cover ;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;   
+    padding: 1rem;
+
+}
+#logo{
+    flex: 2;
+    text-align: left;
+    color: rgb(247, 135, 31);
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+    flex: 2;
+    display: flex;
+}
+.nav a{
+    flex:2;
+    color: #aaa5a5;
+    
+}
+
+.nav a:hover{
+color:rgb(10, 6, 255);
+}
+
+
+.Location-page{
+    
+max-width: 100%;
+max-height: 500px;
+background: #f1c8c8;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+}
+
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+header h1{
+    font-size: 2em;
+    color: #333;
+}
+
+.location-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+overflow: auto;
+}
+
+.location-info div{
+    width: 30px;
+
+}
+
+.location-info h2{
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.location-info p,
+.location-info ul{
+    color: #555;
+
+}
+
+.hours ul{
+    list-style-type: none ;   
+}
+
+.map{
+    margin-bottom: 20px;
+}
+
+.map h2{
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.review h2{
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.review p{
+margin: top 20px;
+    color:#000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Location-page p{
+    margin-bottom: 20px;
+}

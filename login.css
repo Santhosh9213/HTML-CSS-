@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+box-sizing: border-box;
+
+}
+.landing{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:whitesmoke;
+    overflow: hidden;
+    }
+    #logo{
+        display: flex;
+        flex: 2;
+        color: rgb(247, 135, 31);
+        font-size: 1.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header{
+        flex: 2;
+        display: flex;
+    }
+    .nav{
+    display:flex;
+    flex: 2;   
+    }
+    .nav a{
+        display: flex;
+        flex: 2;        
+        padding-left:1em;
+        color: #aaa5a5;
+        font-weight: 300px;
+        text-decoration: none;
+        
+    }
+    
+    .nav a:hover{
+    color:rgb(10, 6, 255);
+    }
+    head{
+        display: flex;
+        flex: 2;
+    }
+.login{
+    width: 400px;
+    margin:250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0,0,0,.8);
+    font-size: 30px;
+border-radius: 10px;
+}
+.login h3{
+text-align: center;
+color:red;
+}
+.mail{
+width: 90%;
+font-size: .8em;
+margin: 20px;
+border-radius: 10px;
+box-sizing: border-box;
+}
+.mail:focus{
+    background-color:rgb(123, 223, 156);
+    color: rgb(0, 0, 0);
+}
+.password{
+    width: 90%;
+    font-size: .8em;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+} 
+.password:focus{
+    background-color: rgb(123, 223, 156);
+    color: rgb(0, 0, 0);
+}
+.button{
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(75, 73, 72);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.last{
+    background-color: black;
+}
